@@ -1,0 +1,21 @@
+==============================================================================
+ 
+==============================================================================
+ Description.......: Vim / Text Operations
+ Author............: Data Precog
+ Email.............: info@dataprecog.com
+ Date..............: 2009.02.08
+ Version...........: 1.0
+
+================================================================================
+Text operations
+================================================================================
+:%s/\s\+$//             deletes all spaces at the end of each line
+:%s/,/\r/g              replaces all commas with a new line
+:%s/^/Hello/g           insert text at the beginning of each line
+:%s/$/Hello/g           add text at the end of each line
+:g/^\s*#/d              deletes all lines which have "#" as the first (non-blank) character
+
+================================================================================
+EOF
+================================================================================
